@@ -24,9 +24,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <head>
-        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <script src="https://unpkg.com/@phosphor-icons/web" async></script>
         {/* this '0' script solves the FOUC issue https://github.com/vercel/next.js/issues/13058 */}
-        <script>0</script>
+        <script async>0</script>
       </head> 
       <body className={`${jakarta.variable} ${barlow.variable}`}>{children}</body>
     </html>

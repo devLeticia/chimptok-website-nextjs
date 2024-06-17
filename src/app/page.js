@@ -50,7 +50,7 @@ export default function Home() {
         </nav>
         <div className="flex flex-col items-center justify-center gap-12">
           <div style={{ fontSize: "9rem" }} className="leading-none pt-40 w-full flex flex-col items-center justify-center font-display font-black">
-            <h1 className="-mt-6 relative">IT'S TIME TO
+            <h1 className="-mt-6 relative">ITS TIME TO
               <Image src="/Timer.svg" alt="Seal Check" width={90} height={90} className="absolute top-24 left-52 right-0 -mt-6"  />
             </h1>
             <h1 className="-mt-6">GET THINGS</h1>
@@ -89,7 +89,7 @@ export default function Home() {
             
             <h1 className="font-display text-5xl font-black"  id='about'>HOW IT WORKS</h1>
             <p className="font-semibold text-zinc-500 ">
-            Your ultimate platform to set goals, create routines, and track your progress. See where you're excelling and where you can improve with our insightful reports. Let's smash those goals together!
+            Your ultimate platform to set goals, create routines, and track your progress. See where youre excelling and where you can improve with our insightful reports. Lets smash those goals together!
             </p>
             </div>
             <div className=" flex gap-6 items-top justify-center relative">
@@ -98,7 +98,7 @@ export default function Home() {
               <div className="flex  mt-6 gap-12  bg-zinc-100 p-12 w-full rounded-2xl shadow-sm  overflow-hidden border border-1 border-gray-300">
                 <div className='flex flex-col gap-6 max-w-80 relative'>
                   <h1 className="w-full font-display text-3xl text-zinc-900 font-black leading-none mt-12"><span className='text-5xl rotate-2'>1.</span> SET GOALS & TASKS TO CREATE A KILLER ROUTINE!</h1>
-                  <p className="font-semibold text-zinc-500">Chimp's got your back, setting deadlines and daily time targets for each goal.</p>
+                  <p className="font-semibold text-zinc-500">Chimps got your back, setting deadlines and daily time targets for each goal.</p>
                 </div>
                   {/* <Image src="/ArrowDown.svg" alt="Seal Check" width={10} height={10} className="absolute left-1/4  -bottom-32 overflow-visible"/> */}
                   <Image src="/img/steps/StepOne.svg" alt="Seal Check" width={450} height={450} className="-mb-16 rounded-lg  shadow-xl"/>
@@ -116,7 +116,7 @@ export default function Home() {
             </div>
             <div className=" flex gap-6 items-top justify-center relative my-12">
             {/* <Image src="/ArrowDown.svg" alt="Seal Check" width={10} height={10} className="absolute right-1/4  -top-40 overflow-visible"/> */}
-                <Image src="/Flag.svg" alt="Seal Check" width={100} height={100} className="absolute right-6 -bottom-6 right-0"  />
+                <Image src="/Flag.svg" alt="Seal Check" width={100} height={100} className="absolute right-6 -bottom-6"  />
                 <Image src="/Trophy.svg" alt="Seal Check" width={100} height={100} className="absolute -right-6 -bottom-3  -mt-6"  />
               <div className="flex  mt-6 gap-12  bg-zinc-100 p-12 w-full rounded-2xl shadow-sm  overflow-hidden border border-1 border-gray-300">
                   <Image src="/img/steps/StepThree.svg" alt="Seal Check" width={450} height={450} className="-mb-16 rounded-lg"/>
@@ -129,14 +129,14 @@ export default function Home() {
             {/* <div className="max-w-[1600] grid grid-cols-1 gap-6 items-center justify-center">
               <div className="w-full flex flex-col text-center gap-6 bg-zinc-100 p-12 w-full bg-white rounded-md shadow-sm border border-1 border-gray-300 ">
                 <h1 className="w-full font-display px-12 text-3xl font-black italic leading-none">SET GOALS & TASKS<br/> TO CREATE A ROUTINE</h1>
-                <p className="font-medium text-sm text-zinc-700">Chimp's got your back, setting deadlines and <br/> daily time targets for each goal. Let's make every moment count!</p>
+                <p className="font-medium text-sm text-zinc-700">Chimps got your back, setting deadlines and <br/> daily time targets for each goal. Lets make every moment count!</p>
               </div>
             </div> */}
         </div>
         <div className='text-center  items-center flex flex-col gap-6 my-12'>
-          <h1 className="font-display text-center text-6xl font-black">THAT'S IT! <br/>QUIT THE SCROLLING,<br/>START THE ACTION!</h1>
-          <p className="font-semibold text-zinc-500">The tour's over, friend! Don't waste another second procrastinating.<br/>
-          Let's get you signed up on Chimptok and on your way to achieving those dreams!</p>
+          <h1 className="font-display text-center text-6xl font-black">THATS IT! <br/>QUIT THE SCROLLING,<br/>START THE ACTION!</h1>
+          <p className="font-semibold text-zinc-500">The tours over, friend! Dont waste another second procrastinating.<br/>
+          Lets get you signed up on Chimptok and on your way to achieving those dreams!</p>
           <button className="mt-6 text-zinc-900 bg-gradient-to-r from-yellow-200 to-yellow-500 hover:from-yellow-200 hover:to-yellow-300 border border-1 border-yellow-400 font-extrabold py-4 px-32 rounded-md shadow-lg mr-6">START NOW</button>
         </div>
 
@@ -147,7 +147,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-6 justify-between">
               
-                  <h1 className="max-w-[500px] w-full text-white font-display text-5xl font-black  leading-none uppercase">DON'T LIE TO YOURSELF, thinking you'll start next Monday.</h1>
+                  <h1 className="max-w-[500px] w-full text-white font-display text-5xl font-black  leading-none uppercase">DONT LIE TO YOURSELF, thinking youll start next Monday.</h1>
                   <p className="font-semibold text-zinc-400">Take the first step to start making immediate progress!</p>
                   <button className="text-zinc-900 bg-gradient-to-r from-yellow-200 to-yellow-500 hover:from-yellow-200 
                    hover:to-yellow-300 border border-1 border-yellow-400 font-extrabold py-4 px-6 w-full rounded-md shadow-lg uppercase">Start Now</button>
