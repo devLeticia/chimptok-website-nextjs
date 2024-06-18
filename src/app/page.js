@@ -6,11 +6,11 @@ import URL from './urls.json';
 export default function Home() {
   
   function openLogin() {
-    window.open('http://localhost:4000/login', '_blank')
+    window.open('https://app.chimptok.com/', '_blank')
   }
   
   function openSignUp() {
-    window.open('http://localhost:4000/login',  '_blank')
+    window.open('https://app.chimptok.com/',  '_blank')
   }
 
   return (
