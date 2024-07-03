@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         {/* this '0' script solves the FOUC issue https://github.com/vercel/next.js/issues/13058 */}
         <script async>0</script>
       </head> 
-      <body className={`${jakarta.variable} ${barlow.variable}`}>{children}</body>
+      <body className={`${jakarta.variable} ${barlow.variable} overflow-x-hidden`}>{children}</body>
     </html>
   );
 }

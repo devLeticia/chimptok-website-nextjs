@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function Footer () {
     return (
-    <footer className='flex flex-col justify-between text-sm font-medium bg-[#FADE7E] min-h-[460px] w-full py-16 px-32 rounded-t-3xl -mb-20 text-gray-900 '>
-        <div className='flex justify-between pb-6 px-12 border-b border-yellow-950 border-opacity-30'>
+    <footer className='flex flex-col justify-between text-sm font-medium bg-[#FADE7E] min-h-[460px] w-full py-16  px-6 md:px-32 rounded-t-3xl -mb-20 text-gray-900 '>
+        <div className='flex justify-between pb-6 px-2 md:px-12 border-b border-yellow-950 border-opacity-30'>
         <Image src="/ChimptokLogotype.svg" alt="ChimptokLogoType" width={140} height={140} className="hover:cursor-pointer" />
         <div className='flex gap-x-6'>
             <a href={URL.instagram} target="_blank" rel="noopener noreferrer"className="text-gray-900  hover:text-gray-950">
