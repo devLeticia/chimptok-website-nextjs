@@ -11,7 +11,7 @@ import Footer from './Home/Footer/Footer';
 export default function Home() {
   return (
     <main className="min-h-screen w-full py-12 flex flex-col items-center font-body">
-      <div className='w-full flex flex-col items-center px-10 overflow-visible max-w-screen-xl'>
+      <div className='w-full flex flex-col items-center px-10 gap-24 overflow-visible max-w-screen-xl'>
         <NavBar/>
         <Intro/>
         <Ratings/>

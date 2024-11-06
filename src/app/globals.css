@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --font-barlow: 'Barlow Semi Condensed', sans-serif;
+  --font-jakarta: 'Plus Jakarta Sans', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,11 +18,17 @@
   }
 }
 
+.font-body {
+  font-family: var(--font-jakarta); /* or --font-barlow depending on the primary font */
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: #fff;
 }
-
+* {
+  font-display: swap;
+}
 
 
 

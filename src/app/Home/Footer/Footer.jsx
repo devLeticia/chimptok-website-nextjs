@@ -47,8 +47,8 @@ export default function Footer () {
                 </div> */}
         </div>
             <div>
-            <p className='md:text-right'>Designed and Developed by <a className='font-bold hover:text-gray-950' href="#" >Leticia</a></p>
-            <p className='md:text-right'>Inspired by <a className='font-bold hover:text-gray-950' href="#">Rocketseat</a> and <a className='font-bold'href="#">IxDF</a></p>
+            <p className='md:text-right'>Designed and Developed by <a className='font-bold hover:text-gray-950' href="https://www.leticiagoncalves.dev" >Leticia</a></p>
+            <p className='md:text-right'>Inspired by <a className='font-bold hover:text-gray-950' href="https://app.rocketseat.com.br/">Rocketseat</a></p>
             </div>
         </div>
             <p className='text-center mt-12'>© 2024 Chimptok All Rights Reserved</p>

@@ -35,13 +35,11 @@ export default function NavBar() {
     }, []);
 
     return (
-        <nav className="fixed z-50 w-full max-w-screen-2xl">
+        <nav className="fixed z-50 w-full max-w-screen-2xl h-20">
         <div className='mx-10 shadow-sm bg-opacity-90 bg-gray-100 border border-1 border-gray-300 rounded-full flex items-center justify-between px-4 md:px-12 py-3'>
-
-      
         <div className="flex items-center">
             <div className="text-lg font-bold">
-                <Image src="/ChimptokLogotype.svg" alt="ChimptokLogoType" width={140} height={140} className="hover:cursor-pointer" />
+                <Image src="/ChimptokLogotype.svg" alt="ChimptokLogoType" width={140} height={140} className="hover:cursor-pointer" priority />
             </div>
         </div>
         <div className="hidden md:flex items-center space-x-4 md:space-x-12">

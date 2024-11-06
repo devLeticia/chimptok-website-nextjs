@@ -10,7 +10,7 @@ const nextConfig = {
     // fastRefresh: true,
     // concurrentFeatures: true,
     productionBrowserSourceMaps: false, // Disable source maps in development
-    optimizeFonts: false, // Disable font optimization
+    optimizeFonts: true, // Disable font optimization
     // minify: false, // Disable minification
 };
 

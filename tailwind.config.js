@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  jit: "true",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ['var(--font-barlow)'],
-        body: ['var(--font-jakarta)'],
+        barlow: ['var(--font-barlow)'],
+        jakarta: ['var(--font-jakarta)'],
       },
     },
   },
