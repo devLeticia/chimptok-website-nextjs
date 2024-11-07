@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import CtaButton from './../../components/CtaButton';
 
 export default function StepThree () {
     return (
@@ -20,6 +21,7 @@ export default function StepThree () {
           <Image src="/img/steps/StepThree.svg" className="-mb-16" alt="Seal Check" width={756} height={350} />
         </div>
       </div>
+      <CtaButton />
       </div>
     )
 

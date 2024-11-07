@@ -1,5 +1,6 @@
 import { InstagramLogo, TwitterLogo} from '@phosphor-icons/react'
 import Image from 'next/image';
+import URL from '../../../app/urls.json'
 
 export default function Footer () {
     return (
@@ -7,10 +8,10 @@ export default function Footer () {
         <div className='flex justify-between pb-6 px-2 md:px-12 border-b border-yellow-950 border-opacity-30'>
         <Image src="/ChimptokLogotype.svg" alt="ChimptokLogoType" width={140} height={140} className="hover:cursor-pointer" />
         <div className='flex gap-x-6'>
-            <a href={URL.instagram} target="_blank" rel="noopener noreferrer"className="text-gray-900  hover:text-gray-950">
+            <a href={URL.instagram} target="_blank" rel="noopener noreferrer"className="cursor-pointer text-gray-900  hover:text-gray-950">
                 <InstagramLogo  size={24}  weight="fill" />
             </a>
-            <a href={URL.twitter} target="_blank" rel="noopener noreferrer"className="text-gray-900 hover:text-gray-950">
+            <a href={URL.twitter} target="_blank" rel="noopener noreferrer"className="cursor-pointer text-gray-900 hover:text-gray-950">
                 <TwitterLogo size={24}  weight="fill"  />
             </a>
             <a href="#" className=" hover:text-gray-950 font-bold">
