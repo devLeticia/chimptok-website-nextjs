@@ -8,7 +8,10 @@ export default function StepTwo () {
           <span className='italic'>2</span>
         </h1>
         <h1 className="font-barlow text-5xl text-black font-black leading-none ">Use Time Tracker  <br/>for Daily Consistency</h1>
-        <p className="font-semibold text-zinc-500 text-xl">{`Stay on track with our time tracker, turning routines into habits. Consistency is your new superpower!`}</p>
+        <div className='font-semibold text-zinc-500 text-2xl'>
+        <p>{`Stay on track with our time tracker, turning routines into habits.`}</p>
+        <p>{`Consistency is your new superpower!`}</p>
+        </div>
         
       </div>
       <div className="relative flex flex-col items-center justify-center bg-zinc-100 shadow-2xl rounded-2xl  border border-1 border-gray-300 pt-24 px-16">

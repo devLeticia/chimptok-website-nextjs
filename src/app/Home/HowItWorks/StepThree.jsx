@@ -8,8 +8,10 @@ export default function StepThree () {
             <span className='italic'>3</span>
           </h1>
           <h1 className="font-barlow text-5xl text-black font-black leading-none ">Keep Track of Your Progress<br/> with Insightful Reports.</h1>
-          <p className="font-semibold text-zinc-500 text-xl">{`Dive into detailed reports to see your progress. Refine your approach and stay ahead of the game!`}</p>
-          
+          <div className="font-semibold text-zinc-500 text-2xl">
+            <p >{`Dive into detailed reports to see your progress.`}</p>
+            <p >{`Refine your approach and stay ahead of the game!`}</p>
+          </div>
         </div>
         <div className="relative flex flex-col items-center justify-center bg-zinc-100 shadow-2xl rounded-2xl  border border-1 border-gray-300 p-16">
         <Image src="/Flag.svg" alt="Seal Check" width={110} height={100} className="absolute -left-16 -bottom-8"  />
