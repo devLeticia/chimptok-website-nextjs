@@ -4,6 +4,7 @@ import CtaButton from './../../components/CtaButton';
 export default function StepOne () {
     return (
     <div className="relative w-full flex flex-col items-center text-center gap-16">
+      <Image src="/background/long-vine.svg" alt="Seal Check" width={1000} height={80} className="absolute top-40 -left-60 -z-10 opacity-10" />
       <div className='flex flex-col gap-6'>
         <h1 className="w-full font-barlow text-8xl text-black font-black leading-none"><span style={{  verticalAlign: 'middle' }} className='text-5xl'># </span> 
           <span className='italic'>1</span>
