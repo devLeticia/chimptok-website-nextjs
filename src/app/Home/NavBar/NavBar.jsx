@@ -5,12 +5,13 @@ import URL from '../../../app/urls.json'
 
 export default function NavBar() {
     function openLogin() {
-        window.open('https://app.chimptok.com/', '_blank')
+        window.open('https://app.chimptok.com/login')
     }
     
     function openSignUp() {
-        window.open('https://app.chimptok.com/',  '_blank')
+        window.open('https://app.chimptok.com/register')
     }
+    
     const [isMenuOpen, setMenuOpen] = useState(false);
     const [isScrolled, setScrolled] = useState(false);
 
@@ -62,13 +63,13 @@ export default function NavBar() {
                 </a>
             </div>
             <div className="flex items-center space-x-4">
-                 <button onClick={openLogin}
+                 <button onClick={openSignUp}
                         className={`min-w-40 border-2  ${isScrolled ? 'font-bold bg-gradient-to-r  from-yellow-300 to-yellow-500 hover:from-yellow-200 hover:to-yellow-300 text-zinc-950 border-yellow-400' : 
                                     'bg-zinc-950 border-zinc-950 font-semibold'} hover:bg-zinc-800 text-white  px-4 py-1 rounded focus:outline-none focus:shadow-outline`}
                         >
                     Join
                 </button>
-                <button onClick={openSignUp} className="min-w-40 border-2 border-zinc-950 bg-white text-gray-950 hover:bg-gray-200 font-semibold px-4 py-1 rounded focus:outline-none focus:shadow-outline">
+                <button onClick={openLogin} className="min-w-40 border-2 border-zinc-950 bg-white text-gray-950 hover:bg-gray-200 font-semibold px-4 py-1 rounded focus:outline-none focus:shadow-outline">
                     Log In
                 </button>
             </div>
