@@ -14,7 +14,7 @@ export default function StepOne () {
       <Image src="/Target.svg" alt="Seal Check" width={100} height={80} className="absolute right-2 -top-6 " />
       <Image src="/Calendar.svg" alt="Seal Check" width={100} height={90} className="absolute  top-16 -right-12 -mt-6" />
       <div className="overflow-hidden -mb-16 ">
-        <Image src="/img/steps/StepOne.svg" className="-mb-16" alt="Seal Check" width={540} height={350} />
+        <Image src="/img/steps/StepOne.svg" className="-mb-16" alt="Seal Check" width={640} height={350} />
       </div>
     </div>
     </div>

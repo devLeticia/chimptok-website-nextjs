@@ -15,7 +15,7 @@ export default function StepThree () {
         <Image src="/Flag.svg" alt="Seal Check" width={110} height={100} className="absolute -left-16 -bottom-8"  />
         <Image src="/Trophy.svg" alt="Seal Check" width={110} height={100} className="absolute left-0 -bottom-12  -mt-6"  />
         <div className="overflow-hidden -mb-16 ">
-          <Image src="/img/steps/StepThree.svg" className="-mb-16" alt="Seal Check" width={540} height={350} />
+          <Image src="/img/steps/StepThree.svg" className="-mb-16" alt="Seal Check" width={756} height={350} />
         </div>
       </div>
       </div>
