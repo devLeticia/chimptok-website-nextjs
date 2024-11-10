@@ -37,3 +37,14 @@ body {
     text-wrap: balance;
   }
 }
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #FADE7E;
+}
+
+::selection {
+  color: black;
+  background: #FADE7E;
+}

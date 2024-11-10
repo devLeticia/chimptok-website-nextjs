@@ -5,11 +5,11 @@ import URL from '../../../app/urls.json'
 
 export default function NavBar() {
     function openLogin() {
-        window.open('https://app.chimptok.com/login')
+        window.open('https://app.chimptok.com/login', "_self")
     }
     
     function openSignUp() {
-        window.open('https://app.chimptok.com/register')
+        window.open('https://app.chimptok.com/register', "_self")
     }
     
     const [isMenuOpen, setMenuOpen] = useState(false);

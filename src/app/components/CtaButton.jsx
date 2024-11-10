@@ -1,7 +1,7 @@
 
 export default function CtaButton() {
     function openSignUp() {
-        window.open('https://app.chimptok.com/register')
+        window.open('https://app.chimptok.com/signup', "_self")
     }
 
     return (
