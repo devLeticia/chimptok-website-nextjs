@@ -3,7 +3,7 @@ import { Siren } from '@phosphor-icons/react';
 import CtaButton from './../../components/CtaButton';
 export default function QuitScrollingCTA() {
     function openSignUp() {
-        window.open('https://app.chimptok.com/register')
+        window.open('https://app.chimptok.com/signup')
     }
 
     return (

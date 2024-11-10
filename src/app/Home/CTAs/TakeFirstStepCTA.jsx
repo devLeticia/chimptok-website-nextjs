@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function TakeFirstStep () {
   function openSignUp() {
-    window.open('https://app.chimptok.com/register', "_self")
+    window.open('https://app.chimptok.com/signup', "_self")
   }
 
     return (
