@@ -17,9 +17,9 @@ export default function Footer () {
             <a href="#" className=" hover:text-gray-950 font-bold">
                 About
             </a>
-            <a href="#" className=" hover:text-gray-950 font-bold">
+            {/* <a href="#" className=" hover:text-gray-950 font-bold">
                 Blog
-            </a>
+            </a> */}
         </div>
         </div>
     <div>
@@ -47,11 +47,9 @@ export default function Footer () {
                 </div>
                 </div> */}
         </div>
-            <div>
-            <p className='text-center'>Designed and Developed by <a className='font-bold hover:text-gray-950' href="https://www.leticiagoncalves.dev" >Leticia</a></p>
-            </div>
         </div>
-            <p className='text-center mt-12'>© 2024 Chimptok All Rights Reserved</p>
+            <p className='text-center'>Designed and Developed by <a className='font-bold hover:text-gray-950' href="https://www.leticiagoncalves.dev" >Leticia Gonçalves</a></p>
+            <p className='text-center mt-3'>© 2024 Chimptok All Rights Reserved</p>
         </div>
   </footer>
     )

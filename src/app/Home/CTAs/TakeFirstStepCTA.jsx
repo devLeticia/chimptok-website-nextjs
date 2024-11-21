@@ -19,7 +19,7 @@ export default function TakeFirstStep () {
           </div>
               </div>
               <div className="flex flex-col gap-6 justify-between w-full mt-36 md:mt-0">
-                  <h1 className="max-w-[500px] w-full text-white font-barlow text-5xl font-black  leading-none uppercase">{`DON'T LIE TO YOURSELF, thinking youll start next Monday.`}</h1>
+                  <h1 className="max-w-[500px] w-full text-white font-barlow text-5xl font-black  leading-none uppercase">{`DON'T LIE TO YOURSELF, thinking you'll start next Monday.`}</h1>
                   <p className="font-semibold text-zinc-400">Take the first step to start making immediate progress!</p>
                   <button onClick={openSignUp} className="text-black bg-gradient-to-r from-yellow-200 to-yellow-500 hover:from-yellow-200 
                    hover:to-yellow-300 border border-1 border-yellow-400 font-extrabold py-4 px-6 w-full rounded-md shadow-lg uppercase">Start Now</button>

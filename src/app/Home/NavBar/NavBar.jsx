@@ -58,9 +58,9 @@ export default function NavBar() {
                 <a href="#about" className="text-gray-600 hover:text-gray-900 font-bold">
                     About
                 </a>
-                <a href="#" className="text-gray-600 hover:text-gray-900 font-bold">
+                {/* <a href="#" className="text-gray-600 hover:text-gray-900 font-bold">
                     Blog
-                </a>
+                </a> */}
             </div>
             <div className="flex items-center space-x-4">
                  <button onClick={openSignUp}
@@ -98,9 +98,9 @@ export default function NavBar() {
                 <a href="#about" className="text-gray-600 hover:text-gray-900 font-bold text-center">
                     About
                 </a>
-                <a href="#" className="text-gray-600 hover:text-gray-900 font-bold text-center">
+                {/* <a href="#" className="text-gray-600 hover:text-gray-900 font-bold text-center">
                     Blog
-                </a>
+                </a> */}
                 <div className="flex flex-col space-y-4">
                     <button onClick={openLogin} className="w-full border-2 border-zinc-950 bg-zinc-950 hover:bg-zinc-800 text-white font-semibold px-4 py-2 rounded focus:outline-none focus:shadow-outline">
                         Join
