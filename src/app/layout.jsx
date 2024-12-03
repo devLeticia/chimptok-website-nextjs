@@ -31,13 +31,13 @@ export default function RootLayout({ children }) {
         <meta property="og:description" content="Your best tool to set and reach goals" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.chimptok.com" />
-        <meta property="og:image" content="/img/chimptok.png" />
+        <meta property="og:image" content="https://www.chimptok.com/chimptok-thumb.png" />
         <meta property="og:chimptok" content="Chimptok" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Chimptok" />
         <meta name="twitter:description" content="Your best tool to set and reach goals" />
-        <meta name="twitter:image" content="/img/chimptok.png" /> 
+        <meta name="twitter:image" content="https://www.chimptok.com/chimptok-thumb.png" /> 
         <meta name="twitter:site" content="@chimptok" /> 
         <meta name="twitter:image:alt" content="It's time to get things done">
 
